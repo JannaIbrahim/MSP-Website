@@ -1,57 +1,48 @@
 import React,{Component} from 'react';
-// import  from 'react';
 import "./BestMembers.css"
 class BestMembers extends Component {
     // state = {  }
+    
     render() { 
         return ( 
-            <div className="slider_members" >
-               
-              
+  <div className="container" >
+            {console.log(`w${window.outerWidth}`)}  
+            {console.log(`H${window.outerHeight}`)}  
                         
-                            <div class="container ">
-                                                                
-                                <div className="slider row">
+    
+                                                     
+       <div className="row">
 
-                                        <div className="card_members col-lg-4">
+         <div className="col">
+             <img src="/images/vectortwins160200158.jpg"  className="img_member" />
+             <div className="col">
+             <h6 className="name_member">Ahmed Gamal</h6>
+             <h6 className="sub_member">Web</h6>
+             </div>
+         </div>
 
-                                            <img src="/images/vectortwins160200158.jpg"  className="img_member" />
-
-                                            <br/>
-                                            <span className="name_member">Ahmed Gamal</span>
-
-                                            <br/>
-                                            <span className="sub_member">Web</span>
-
-                                        </div>
-
-                                        <div className="card_members col-lg-4 ">
-
-                                            <img src="/images/vectortwins160200158.jpg" className="img_member"/>
-                                            <br/>
-
-                                            <span className="name_member">Ahmed Gamal</span>
-                                            <br/>
-
-                                            <span className="sub_member">Web</span>
-                                        </div>
-
-                                        <div className="card_members col-lg-4">
-                                            <img src="/images/vectortwins160200158.jpg" className="img_member"/>
-                                            <br/>
-
-                                            <span className="name_member">Ahmed Gamal</span>
-                                            <br/>
-
-                                            <span className="sub_member">Web</span>
-                                        </div>
-
-                                </div>
-
-                </div>
-
+        <div className="col ">
+            <img src="/images/vectortwins160200158.jpg" className="img_member"/>
+            <div className="col">
+            <h6 className="name_member">Ahmed Gamal</h6>
+            <h6 className="sub_member">Web</h6>
             </div>
-         );
+        </div>
+
+       <div className="col">
+           <img src="/images/vectortwins160200158.jpg" className="img_member"/>
+           <div className="col">
+           <h6 className="name_member">Ahmed Gamal</h6>
+           <h6 className="sub_member">Web</h6>
+           </div>
+       </div>
+
+      </div>
+
+    
+
+</div>
+);
     }
 }
  
