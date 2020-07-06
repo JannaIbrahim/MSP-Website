@@ -2,7 +2,6 @@
 {
     background-color: tomato;
 }
-
 .img_member{
     
     width:100%;
@@ -13,9 +12,17 @@
 .name_member,.sub_member
 {
 
-    
     background-color: wheat;
     font-size:10px;
     text-align: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 300px)
+{
+    .name_member,.sub_member
+{
+    font-size:6px;  
+}
 }
 

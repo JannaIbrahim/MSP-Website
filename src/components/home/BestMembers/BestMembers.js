@@ -6,8 +6,8 @@ class BestMembers extends Component {
     render() { 
         return ( 
   <div className="container" >
-            {console.log(`w${window.outerWidth}`)}  
-            {console.log(`H${window.outerHeight}`)}  
+            {/* {console.log(`w${window.outerWidth}`)}  
+            {console.log(`H${window.outerHeight}`)}   */}
                         
     
                                                      
@@ -15,26 +15,23 @@ class BestMembers extends Component {
 
          <div className="col">
              <img src="/images/vectortwins160200158.jpg"  className="img_member" />
-             <div className="col">
              <h6 className="name_member">Ahmed Gamal</h6>
              <h6 className="sub_member">Web</h6>
-             </div>
+             
          </div>
 
         <div className="col ">
             <img src="/images/vectortwins160200158.jpg" className="img_member"/>
-            <div className="col">
             <h6 className="name_member">Ahmed Gamal</h6>
             <h6 className="sub_member">Web</h6>
-            </div>
+            
         </div>
 
        <div className="col">
            <img src="/images/vectortwins160200158.jpg" className="img_member"/>
-           <div className="col">
            <h6 className="name_member">Ahmed Gamal</h6>
            <h6 className="sub_member">Web</h6>
-           </div>
+     
        </div>
 
       </div>
