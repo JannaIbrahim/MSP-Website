@@ -1,32 +1,35 @@
 .counter {
-  margin-top: 50px;
+  margin-top: 40px;
+  background-color: #FFFBFA;
 }
+
+/******* Start Style For Any div of Icons and paragraph*******/
+.all-icons {
+  padding-top: 15px;
+  text-align: center;
+}
+/******* End Style For Any div of Icons and paragraph*******/
+
 /******************** Start Style For Any Icons ***********************/
-.counter .container .icons .icon-shape {
+.all-icons i {
   color: #01a4f1;
   font-size: 50px;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   transition: all 0.5 ease-in-out;
   -webkit-transition: all 0.5 ease-in-out;
   -moz-transition: all 0.2 ease-in-out;
 }
 
-.counter .container .icons .icon-shape:hover {
+.all-icons i:hover {
   transform: scale(1.7);
 }
 /******************** End Style For Any Icons **************************/
 
-/******* Start Style For Any div of Icons and paragraph*******/
-.all-icons .icons {
-  text-align: center;
-}
-/******* End Style For Any div of Icons and paragraph*******/
-
 /******* Start Style For paragraph*******/
-.counter .container .icons .text-of-icons p {
+.all-icons p {
   font-weight: bold;
 }
-.counter .container .icons .text-of-icons p span {
+.all-icons p span {
   display: block;
 }
 /******* End Style For  paragraph*******/
