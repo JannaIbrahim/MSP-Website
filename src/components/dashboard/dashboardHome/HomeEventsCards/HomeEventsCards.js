@@ -7,7 +7,7 @@ class HomeEventsCards extends Component {
     eventInfo: [
       {
         id: 1,
-        imgSrc: "../images/1.jpg",
+        imgSrc: "../1.jpg",
         Kind: "New Upcoming Event",
         describtion: "Lorem ipsum dolor sit amet",
         icon: "fa fa-clock-o",
@@ -16,7 +16,7 @@ class HomeEventsCards extends Component {
 
       {
         id: 2,
-        imgSrc: "../images/2.jpg",
+        imgSrc: "../2.jpg",
         Kind: "New Upcoming Event",
         describtion: "Lorem ipsum dolor sit amet",
         icon: "fa fa-clock-o",
@@ -25,7 +25,7 @@ class HomeEventsCards extends Component {
 
       {
         id: 3,
-        imgSrc: "../images/3.jpg",
+        imgSrc: "../3.jpg",
         Kind: "New Upcoming Event",
         describtion: "Lorem ipsum dolor sit amet",
         icon: "fa fa-clock-o",
