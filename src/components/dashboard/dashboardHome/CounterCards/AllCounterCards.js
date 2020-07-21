@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./CounterCards.css"
 
-class CounterCards extends Component {
+class AllCounterCards extends Component {
   render() {
     return (
       <div className="card card-stats">
@@ -26,4 +26,4 @@ class CounterCards extends Component {
   }
 }
 
-export default CounterCards;
+export default AllCounterCards;
