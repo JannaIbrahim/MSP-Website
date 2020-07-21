@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import CounterCards from "../CounterCards/CounterCards";
 import HomeEventsCards from "../HomeEventsCards/HomeEventsCards";
 import "../CounterCards/CounterCards.css";
-import Layout from "../../dashboardShared/Layout/layout";
+import Layout from "../../dashboardShared/layout";
 
 const DashboardHomePage = () => (
   <Layout>
