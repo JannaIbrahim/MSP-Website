@@ -7,30 +7,24 @@ class EventsSection extends Component {
                 "event_id": 1,
                 "event_image": '../images/eventImage.jpeg',
                 "event_title": "Mega Event",
-                "event_date": {'date_icon' : 'far fa-calendar-alt',
-               'the_date':'30 sep 2019'},
-                "event_location":
-                 {'location_icon': 'fas fa-map-marker-alt fa-3',
+                "event_date": {'the_date':'30 sep 2019'},
+                "event_location":{
                   'the_location':'Anwar Al Mofti, Al Manteqah Al Oula, Nasr City, Cairo Governorate'}
             }, 
             {
                 "event_id": 2,
                 "event_image": '../images/eventImage.jpeg',
                 "event_title": "Mega Event",
-                "event_date": {'date_icon' :'far fa-calendar-alt',
-                 'the_date':'30 sep 2019'},
-                "event_location":
-                 {'location_icon': 'fas fa-map-marker-alt',
+                "event_date": {'the_date':'30 sep 2019'},
+                "event_location": {
                   'the_location':'Anwar Al Mofti, Al Manteqah Al Oula, Nasr City, Cairo Governorate'}
             },
             {
                 "event_id": 3,
                 "event_image": '../images/eventImage.jpeg',
                 "event_title": "Mega Event",
-                "event_date": {'date_icon' : 'far fa-calendar-alt',
-               'the_date':'30 sep 2019'},
-                "event_location":
-                 {'location_icon':'fas fa-map-marker-alt',
+                "event_date": {'the_date':'30 sep 2019'},
+                "event_location": {
                   'the_location':'Anwar Al Mofti, Al Manteqah Al Oula, Nasr City, Cairo Governorate'}
             }
             
@@ -46,11 +40,11 @@ class EventsSection extends Component {
                     <div className='events__details'>
                     <h3>{eventItem.event_title}</h3>
                     <p>
-                      <span className='events__icon'><i className={eventItem.event_date.date_icon}></i></span>  
+                      <span className='events__icon'><i className='far fa-calendar-alt'></i></span>  
                         {eventItem.event_date.the_date}
                     </p>
                     <p>
-                      <span className="events__icon"><i className= {eventItem.event_location.location_icon}></i></span> 
+                      <span className="events__icon"><i className= 'fas fa-map-marker-alt'></i></span> 
                         {eventItem.event_location.the_location}
                     </p>
                     </div>
