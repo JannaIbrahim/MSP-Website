@@ -3,9 +3,8 @@ import './DashboardAddEventPage.css';
 const DashboardAddEventPage =()=>{
         return (  
             <section className='form_bg dashboard-addevent'>
-            <div className='container'>
                 <div className='row'>
-                    <div className='col-md-offset-12 col-md-12 col-sm-offset-6 col-sm-12'>
+                    <div className='col-xl-10 col-lg-9 col-md-8 ml-auto'>
                    <form className='form_horizontal'>
                      <label className='dashboard-addevent__title'>New Event</label>
                         <input type='text' placeholder='Event Name'/>
@@ -21,7 +20,7 @@ const DashboardAddEventPage =()=>{
                     </form>
                     </div>
                 </div>      
-            </div>
+            
             </section>
         );
     }
