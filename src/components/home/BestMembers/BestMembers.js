@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
 import "./BestMembers.css"
-class BestMembers extends Component {
+class CardMembers extends Component {
      state = 
      {
      img:['/images/a.jpg','/images/b.jpg','/images/c.jpg',
@@ -48,26 +48,26 @@ class BestMembers extends Component {
      
         return ( 
             
-  <div className="container" >
+  <div className="containerr" >
                                                  
        <div className=" row">
 
 
-         <div className=" colrow ">
-                    <img src={this.state.img[this.state.count0]}  className="img_member" />
+         <div className="  col-lg-4 col-md-6 col-xs-12">
+             <img src={this.state.img[this.state.count0]}  className="img_member" />
              <h6 className="name_member">Ahmed Gamal</h6>
              <h6 className="sub_member">Web</h6>
              
          </div>
 
-        <div className=" colrow  ">
+        <div className="   col-lg-4 col-md-6 col-sm-12">
             <img src={this.state.img[this.state.count1]} className="img_member"/>
             <h6 className="name_member">Ahmed Gamal</h6>
             <h6 className="sub_member">Web</h6>
             
         </div>
 
-       <div className=" colrow">
+       <div className="  col-lg-4 col-md-6 col-sm-12">
            <img src={this.state.img[this.state.count2]} className="img_member"/>
            <h6 className="name_member">Ahmed Gamal</h6>
            <h6 className="sub_member">Web</h6>
@@ -88,4 +88,4 @@ class BestMembers extends Component {
     }
 }
  
-export default BestMembers ;
+export default CardMembers ;

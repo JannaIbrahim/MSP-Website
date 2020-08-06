@@ -1,10 +1,12 @@
 import React from "react";
-import BestMembers from "./components/home/BestMembers/BestMembers";
+import CardMembers from "./components/home/BestMembers/BestMembers";
+import BestMembers from "./components/dashboard/dashboardBestMembers/DashboardBestMembersPage/DashboardBestMembersPage";
 import "./App.css";
 
 function App() {
   return (
   <div className="App">
+    <CardMembers />
     <BestMembers />
      </div>
   );
