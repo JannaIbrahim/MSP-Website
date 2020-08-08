@@ -1,66 +1,16 @@
 import React, { Component } from 'react';
 import './EventsSection.css';
-class EventsSection extends Component {
-    state = { 
-        eventsData : [
-            {
-                "event_id": 1,
-                "event_image": '../images/eventImage.jpeg',
-                "event_title": "Mega Event",
-                "event_date": {'the_date':'30 sep 2019'},
-                "event_location":{
-                  'the_location':'Anwar Al Mofti, Al Manteqah Al Oula, Nasr City, Cairo Governorate'}
-            }, 
-            {
-                "event_id": 2,
-                "event_image": '../images/eventImage.jpeg',
-                "event_title": "Mega Event",
-                "event_date": {'the_date':'30 sep 2019'},
-                "event_location": {
-                  'the_location':'Anwar Al Mofti, Al Manteqah Al Oula, Nasr City, Cairo Governorate'}
-            },
-            {
-                "event_id": 3,
-                "event_image": '../images/eventImage.jpeg',
-                "event_title": "Mega Event",
-                "event_date": {'the_date':'30 sep 2019'},
-                "event_location": {
-                  'the_location':'Anwar Al Mofti, Al Manteqah Al Oula, Nasr City, Cairo Governorate'}
-            }
-            
-        ]
-     }
-    render() { 
-        const {eventsData} = this.state;
-        let eventList = eventsData.map((eventItem)=>{
-            return(
-                <div key = {eventItem.event_id} className='col-md col-sm-6 all-events' >
-                    <img src = {eventItem.event_image} className='events-image' alt = "the event details"/>
-                    
-                    <div className='events__details'>
-                    <h3>{eventItem.event_title}</h3>
-                    <p>
-                      <span className='events__icon'><i className='far fa-calendar-alt'></i></span>  
-                        {eventItem.event_date.the_date}
-                    </p>
-                    <p>
-                      <span className="events__icon"><i className= 'fas fa-map-marker-alt'></i></span> 
-                        {eventItem.event_location.the_location}
-                    </p>
-                    </div>
-                </div>
-            )
-        })
+import EventsSectionData from './EventsSectionData';
+const EventsSection = () => {
+    
         return ( 
+            //section to show events card and it's header
             <section className='events-section container'>
                 <h2 className='events-header'>EVENTS</h2>
-                <div className='row'>
-                {eventList}
-                </div>
-               
-            </section>
-         );
-    }
+                <EventsSectionData/>
+             </section>
+        );
+    
 }
  
 export default EventsSection;

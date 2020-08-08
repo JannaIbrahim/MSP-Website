@@ -1,12 +1,14 @@
 import React from 'react';
 import './DashboardAddEventPage.css';
 const DashboardAddEventPage =()=>{
-        return (  
+        return ( //section which contain all addevent form data
             <section className='form_bg dashboard-addevent'>
                 <div className='row'>
                     <div className='col-xl-10 col-lg-9 col-md-8 ml-auto'>
                    <form className='form_horizontal'>
+                    {/** Title of the form */}
                      <label className='dashboard-addevent__title'>New Event</label>
+                     {/** all input fields */}
                         <input type='text' placeholder='Event Name'/>
                         <input type='date'/>
                         <input type='Time'/>
