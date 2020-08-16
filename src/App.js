@@ -7,6 +7,9 @@ import DashboardAddMemberPage from './components/dashboard/dashboardBestMembers/
 import DashboardAddBestMemberPage from "./components/dashboard/dashboardBestMembers/DashboardAddBestMemberPage/DashboardAddBestMemberPage";
 import EventsPage from './components/events/EventsPage/EventsPage';
 import AboutUs from "./components/AboutPage/AboutSection";
+import DashboardPastEventsPage from './components/dashboard/dashboardEvents/DashboardPastEventsPage/DashboardPastEventsPage'
+import Footer from "./components/shared/Footer/Footer";
+import OurTeam from "./components/ourTeam/OurTeam";
 function App() {
   return <div className="App">
     <EventsSection/>
@@ -15,6 +18,9 @@ function App() {
     <DashboardAddBestMemberPage/>
     <EventsPage/>
     <AboutUs/>
+    <DashboardPastEventsPage/>
+    <Footer/>
+    <OurTeam/>
   </div>;
 }
 

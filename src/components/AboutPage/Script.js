@@ -25,7 +25,7 @@ class Script extends Component {
         <div className="row responsive">
           <div className="icon space col-md-1 col-12 "></div>
           <div className="icon space col-md-4 col-12 ">
-            <img src="../MSP logo.png" alt="This is Picture" />
+            <img src="../MSP logo.jpg" alt="This is Picture" />
           </div>
           <div className="script space col-md-7 col-12">
             <p>

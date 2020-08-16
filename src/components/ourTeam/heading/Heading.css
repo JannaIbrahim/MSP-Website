@@ -1,0 +1,22 @@
+.head
+ {
+    text-align: center;
+}
+.head h1{
+    text-transform: uppercase;
+    color: rgb(17, 17, 122);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.head button {
+    background-color: #01a4f1;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.line{
+    width: 700px;
+    box-shadow: 1px 1px #337ab7;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}

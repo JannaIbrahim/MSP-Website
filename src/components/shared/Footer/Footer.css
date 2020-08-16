@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    background-color: #011638;
+    margin-top: 50px;
+  }
+  
+  .footer .space {
+    padding: 25px;
+  }
+  
+  .footer .icons .fa,
+  .footer .icons .fab {
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  
+  .footer .icons .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .footer .icons .instagram {
+    color: rgb(146, 15, 146);
+  }
+  
+  .footer .icons .youtube {
+    color: #c4302b;
+  }
+  
+  .footer .icons .facebook {
+    color: #3b5998;
+  }
+  
+  .footer .icons .linkedin {
+    color: #0e76a8;
+  }
+  
+  .footer .form input {
+    padding: 5px;
+    outline: 0;
+  }
+  
+  .footer .form .but {
+    background-color: #01a4f1;
+  }
+  
+  .footer .copyRight {
+    color: white;
+  }
