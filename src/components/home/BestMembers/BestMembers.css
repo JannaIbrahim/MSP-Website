@@ -1,6 +1,6 @@
 .containerr
 {
-    background-color: rgb(138, 255, 71);
+   
     width: 95%;
    height: auto;
     margin: 2.5%;
@@ -10,7 +10,7 @@
 
 .row
 {
-  background-color: darkblue;
+ 
   
   width: 96%;
   margin: auto;
@@ -34,16 +34,11 @@
 .name_member,.sub_member
 {
 
-    background-color: wheat;
+    
     font-size:30px;
     text-align: center;
     margin-top: 5px;
 }
 
-/* 
 
-
-
-
- */
 
