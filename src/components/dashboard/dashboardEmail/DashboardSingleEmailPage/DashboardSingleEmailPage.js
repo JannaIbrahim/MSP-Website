@@ -12,7 +12,7 @@ const DashboardSingleEmailPage = () => (
       {/*** End Header Of University Email ***/}
 
       {/*** Start Form For Regesertion ***/}
-      <div className="form">
+      <div className="form form_horizontal">
         <form>
           {/*** name & Pass & e-mail ****/}
           <input

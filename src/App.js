@@ -10,6 +10,8 @@ import AboutUs from "./components/AboutPage/AboutSection";
 import DashboardPastEventsPage from './components/dashboard/dashboardEvents/DashboardPastEventsPage/DashboardPastEventsPage'
 import Footer from "./components/shared/Footer/Footer";
 import OurTeam from "./components/ourTeam/OurTeam";
+import DashboardLogginForm from './components/dashboard/dashboardLogginForm/dashboardLogginForm.js'
+import AllDashboardEmailsPage from "./components/dashboard/dashboardEmail/DashboardEmailsPage/AllDashboardEmailsPage";
 function App() {
   return <div className="App">
     <EventsSection/>
@@ -21,7 +23,9 @@ function App() {
     <DashboardPastEventsPage/>
     <Footer/>
     <OurTeam/>
-  </div>;
+    <DashboardLogginForm/>
+    <AllDashboardEmailsPage />
+  </div>
 }
 
 export default App;

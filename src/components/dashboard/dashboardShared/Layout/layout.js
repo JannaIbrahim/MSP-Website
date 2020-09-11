@@ -6,7 +6,7 @@ function Sidebar() {
     <div className="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
       <a
         href="#"
-        className="navbar-brand d-block mx-auto text-center py-2 mb-2 line"
+        className="navbar-brand d-block mx-auto text-center py-2 mb-2 "
       >
         MSP
       </a>

@@ -40,7 +40,13 @@
   }
   
   .footer .form .but {
-    background-color: #01a4f1;
+    background-color: #2CA8FF;
+    border: none;
+    height: 38px;
+    width: 60px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
   }
   
   .footer .copyRight {

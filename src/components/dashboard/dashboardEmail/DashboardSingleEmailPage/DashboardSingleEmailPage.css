@@ -3,8 +3,8 @@
     border-radius: 3px;
     border: white;
     box-shadow: 1px 1px 2px 2px #eee;
-    background: #ffffff;
     margin-top: 150px;
+    background-color: #eee;
   }
   
   .singleEmail .text {
@@ -15,13 +15,14 @@
     z-index: 2;
     position: absolute;
     margin-top: -60px;
+    
   }
   .singleEmail .text:hover {
     transform: translateY(-2px);
   }
   
   .singleEmail p {
-    background-color: darkturquoise;
+    background-color: #2CA8FF;
     padding: 20px;
     width: 800px;
     color: #ffffff;
@@ -30,9 +31,11 @@
   
   .singleEmail .form {
     background-color: white;
-    width: 200px;
     padding: 18px;
-    height: 400px;
+    height: 100%;
+    width: 77%;
+    background-color: white;
+
   }
   
   .singleEmail .form .input-text {
@@ -53,9 +56,9 @@
     padding: 10px;
     border: none;
     color: #ffffff;
-    background: darkturquoise;
+    background: #2CA8FF;
     border-radius: 5px;
-    float: right;
     cursor: pointer;
     outline: none;
+    float: right;
   }

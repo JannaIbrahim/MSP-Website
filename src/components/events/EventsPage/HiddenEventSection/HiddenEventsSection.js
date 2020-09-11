@@ -34,6 +34,7 @@ class HiddenEventsSection extends Component {
  //function to update the state when click show link
  handelclick =(e)=>{
      e.preventDefault();
+     document.getElementById('show-more').style.visibility= 'hidden';
      this.setState({
          showHiddenEvent: false
      })
@@ -42,7 +43,7 @@ class HiddenEventsSection extends Component {
         const {showHiddenEvent} =this.state;
         return (
         <div>
-           <h2 className='events-header'><a href='/hidden' onClick={this.handelclick}>Show More</a></h2>
+           <h2 className='events-header' id='show-more'><a href='/hidden' onClick={this.handelclick}>Show More</a></h2>
            {/**if showHiddenEvent == false show hidden section else null */}
             {showHiddenEvent == false? <HiddenEvents hiddenEventsData = {this.state.hiddenEvents}/>: ''}
         </div>
