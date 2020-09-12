@@ -105,7 +105,7 @@ const AllDashboardEmailsPage = () => {
           <p>University Email</p>
         </div>
 
-        <table class="table">
+        <table className="table">
           <thead>
             <tr className="tableHeader">
               <td>Name</td>
