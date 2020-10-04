@@ -1,0 +1,180 @@
+
+.head{
+    font-family:Roboto,Helvetica,Arial,sans-serif;
+	color: #7a7979;
+    width: 90%;
+   margin: 2%;
+   padding-top: 5%;
+display: flex;}
+.title_text{
+	font-size:25px;
+ 
+
+    width: auto;}
+.div_input{
+    position: absolute;
+    margin:-0.1% 0% 0% 55% ;
+    background-color: rgb(255, 255, 255);
+    border: solid 0.01px  rgb(255, 255, 255);
+    border-bottom: solid 2px  rgb(141, 141, 141);
+    width: auto;
+    display: flex;
+    border-radius: 5px;}
+.search_txt{
+    width:90%;
+    min-height:42px;
+    margin-left:-5px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+
+    background-color: rgb(255, 255, 255);
+}
+.search_btn{
+    position: absolute;
+    margin-left:80%;}
+.sicn{
+    background-color: rgb(209, 209, 209);
+
+    width:40px;
+    height: 40px;
+    border-radius: 50%;}
+.scn{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    margin: 10px;}
+.div_icon{
+    position: absolute;
+ width:15%;
+ height:auto;
+margin:  0.25% 0% 0% 80%;}
+.icn{
+    text-decoration: none;
+    width:20px;
+    height: 20px;
+margin-left: 15px;}
+.icnd,.icna{
+    
+    text-decoration: none;
+    width:30px;
+    height: 30px;}
+.edde_but{
+    
+    outline: none;
+border: none;
+background: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.field
+{
+	margin:  15% 0% 0% 5%;
+	height:auto;
+	width: 90%;
+    border-radius:3px;
+    border:white;
+    box-shadow: 1px 1px 2px 2px #eee;
+    background: #ffffff;
+    padding: 10px;
+    overflow-x:scroll;
+
+}
+/*first child legend */
+.legen
+{
+	background-color:darkturquoise;
+	padding:8px;
+	height:auto;
+	width: 100%;
+	border-radius: 3px;
+    color: #ffffff;
+    box-shadow: 1px 1px 2px 2px #eee;
+    display: flex;
+    justify-content: space-between; 
+}
+/*h2 in legend*/
+.head2
+{
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    width: auto;
+	margin:9px;
+}
+/*legend div for input and icon*/
+.legen-icon-box
+{
+	width: 250px;
+	background:white;
+	height: 40px;
+	border-radius:15px;
+	padding: 7px;
+	margin-right: 45px;
+    color: darkturquoise;
+}
+/*legend icon*/
+.icna
+{
+    position: absolute;
+    margin:0;
+}
+/*legend text*/
+.legen-icon-txt
+{
+	border:none;
+	background: none;
+	outline: none;
+	float: right;
+	padding: 0;
+	color:black;
+	font-size: 16px;
+	line-height: 30px;
+}
+/* sacond child in fieldset table*/
+
+
+
+
+
+.table-data
+{
+    width: 90%; 
+    font-family:Roboto,Helvetica,Arial,sans-serif;
+    border-collapse: collapse;
+    margin: 2% 0% 0% 5%;
+}
+/* first row in table*/
+.firstrow
+{
+	color:darkturquoise;
+}
+.icnd
+{
+    width:20PX;
+    height:20PX;
+}
+/*data in tr of table*/
+.data 
+{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+	padding:10px;
+}
+
+/* last row in table*/
+.lastrow
+{
+    text-align: center;
+	padding: 10px;
+}

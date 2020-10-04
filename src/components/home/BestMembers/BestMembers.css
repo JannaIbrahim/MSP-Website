@@ -1,0 +1,44 @@
+.containerr
+{
+   
+    width: 95%;
+   height: auto;
+    margin: 2.5%;
+   
+
+}
+
+.row
+{
+ 
+  
+  width: 96%;
+  margin: auto;
+
+  height: auto;
+
+}
+
+
+
+.img_member{
+
+  width:90%;
+  margin-left:5%;
+  height: 300px;
+  border-radius:100%;
+
+  
+  
+}
+.name_member,.sub_member
+{
+
+    
+    font-size:30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
