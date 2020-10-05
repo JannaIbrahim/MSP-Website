@@ -13,6 +13,7 @@ import OurTeam from "./components/ourTeam/OurTeam";
 import DashboardLogginForm from './components/dashboard/dashboardLogginForm/dashboardLogginForm.js'
 import AllDashboardEmailsPage from "./components/dashboard/dashboardEmail/DashboardEmailsPage/AllDashboardEmailsPage";
 import SingleEventPage from "./components/events/SingleEventPage/SingleEventPage";
+import Slider from './components/home/Slider/Slider'
 function App() {
   return <div className="App">
     <EventsSection/>
@@ -27,6 +28,7 @@ function App() {
     <DashboardLogginForm/>
     <AllDashboardEmailsPage />
     <SingleEventPage/>
+    <Slider/>
   </div>
 }
 
