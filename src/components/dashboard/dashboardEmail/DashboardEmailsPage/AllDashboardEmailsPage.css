@@ -1,0 +1,28 @@
+emailTable {
+    margin-top: 70px;
+  }
+  
+  .emailTable .text p {
+    background-color: #01a4f1;
+    color: white;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 10px;
+    transition: all 0.3 ease-in-out;
+    -moz-transition: all 0.3 ease-in-out;
+    -webkit-transition: all 0.3 ease-in-out;
+  }
+  
+  .emailTable .text:hover {
+    transform: translateY(-2px);
+  }
+  
+  .emailTable .table {
+    margin-top: -17px;
+  }
+  
+  .emailTable .table .tableHeader {
+    color: #01a4f1;
+  }
+  
+  i {cursor: pointer;}
