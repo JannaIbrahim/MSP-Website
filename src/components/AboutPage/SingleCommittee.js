@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Commitee.css";
+import "./AboutCommittees.css";
 
-export default class SingleCommitee extends Component {
+export default class SingleCommittee extends Component {
   handleClick = e => {
     {
       /*** Start Function for Showing Describtion  ***/
@@ -37,7 +37,7 @@ export default class SingleCommitee extends Component {
       return (
         <div className="button-value" key={cardsInfo.id}>
           <button className="button" onClick={this.handleClick}>
-            <i className={cardsInfo.icon} ></i> {cardsInfo.name}
+            <i className={cardsInfo.icon}></i> {cardsInfo.name}
           </button>
 
           {/** This Div Contain Describtion ***/}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Script.css";
+import "./AboutScript.css";
 
-class Script extends Component {
+class AboutScript extends Component {
   render() {
     return (
       <div className="pic describtion">
@@ -50,4 +50,4 @@ class Script extends Component {
   }
 }
 
-export default Script;
+export default AboutScript;

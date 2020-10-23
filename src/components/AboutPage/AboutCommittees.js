@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./Commitee.css";
-import SingleCommitee from "./SingleCommitee";
+import "./AboutCommittees.css";
+import SingleCommitee from "./SingleCommittee";
 
-class Commitee extends Component {
+class AboutCommittees extends Component {
   state = {
     cardsInformation: [
       {
@@ -101,4 +101,4 @@ class Commitee extends Component {
   }
 }
 
-export default Commitee;
+export default AboutCommittees;
