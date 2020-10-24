@@ -1,0 +1,40 @@
+.pic .image {
+  padding: 40px;
+  background-image: url(./222.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.pic .image h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.describtion .space {
+  padding-top: 50px;
+}
+
+.describtion .icon image {
+  width: 200px;
+  height: 200px;
+}
+
+.describtion .publicDescribtion {
+  text-align: center;
+}
+
+.describtion .publicDescribtion h6 {
+  line-height: 2;
+}
+
+.describtion .responsive .script p {
+  line-height: 2;
+}
+
+.describtion .responsive .script p span {
+  font-weight: bold;
+  display: block;
+  padding-top: 5px;
+}
