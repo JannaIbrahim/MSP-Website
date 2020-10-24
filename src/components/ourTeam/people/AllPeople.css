@@ -1,0 +1,12 @@
+.parent {
+    text-align: center;
+}
+
+.parent .person-Image img {
+    width : 150px ;
+    height: 150px ;
+    border-radius: 20% ;
+    margin-top: 30px;
+}
+
+.parent .person-Link i {padding: 7px ;}
