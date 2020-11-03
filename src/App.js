@@ -21,6 +21,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+
   );
 
   return <div className="App"></div>;
@@ -28,5 +29,3 @@ function App() {
 }
 
 export default App;
-
-

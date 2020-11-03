@@ -1,0 +1,49 @@
+.about {
+  background-color: rgb(240, 235, 235);
+}
+
+.button-value button {
+  width: 99%;
+  background-color: #01a4f1;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: -1px;
+  transition: all 0.5 ease-in-out;
+  -webkit-transition: all 0.5 ease-in-out;
+  -moz-transition: all 0.5 ease-in-out;
+}
+
+.button-value button:hover {
+  box-shadow: 2px 3px 15px #999;
+  transform: translateY(-1px);
+}
+
+.button-value button i {
+  padding-right: 7px;
+}
+
+.button-value .describtion {
+  display: none;
+  padding: 30px;
+  line-height: 2;
+}
+
+.button-value .describtion .line {
+  width: 700px;
+  box-shadow: 1px 1px #337ab7;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.commiteesShow h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}

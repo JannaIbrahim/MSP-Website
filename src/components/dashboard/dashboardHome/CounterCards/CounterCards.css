@@ -1,4 +1,4 @@
-/************** Start Style For Counters ***********************/
+/************** Start Style For Counters & Events **************/
 .card {
   margin-bottom: 15px;
   margin-top: 15px;
@@ -36,7 +36,9 @@
   position: relative;
 }
 /** To MAke Space between Counters and Events **/
-.cards1 {margin-bottom: 30px;}
+.cards1 {
+  margin-bottom: 30px;
+}
 
 .card-stats .card-header .card-icon {
   border-radius: 3px;
@@ -107,4 +109,4 @@
   padding-bottom: 0.5rem;
 }
 
-/************** End Style For Counters ***********************/
+/************** End Style For Counters & Events ***********************/
