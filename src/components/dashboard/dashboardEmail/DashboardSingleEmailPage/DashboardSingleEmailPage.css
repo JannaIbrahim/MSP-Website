@@ -1,0 +1,64 @@
+.singleEmail {
+    height: 510px;
+    border-radius: 3px;
+    border: white;
+    box-shadow: 1px 1px 2px 2px #eee;
+    margin-top: 150px;
+    background-color: #eee;
+  }
+  
+  .singleEmail .text {
+    margin-left: 20px;
+    transition: all 0.3 ease-in-out;
+    -moz-transition: all 0.3 ease-in-out;
+    -webkit-transition: all 0.3 ease-in-out;
+    z-index: 2;
+    position: absolute;
+    margin-top: -60px;
+    
+  }
+  .singleEmail .text:hover {
+    transform: translateY(-2px);
+  }
+  
+  .singleEmail p {
+    background-color: #2CA8FF;
+    padding: 20px;
+    width: 800px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .singleEmail .form {
+    background-color: white;
+    padding: 18px;
+    height: 100%;
+    width: 77%;
+    background-color: white;
+
+  }
+  
+  .singleEmail .form .input-text {
+    display: block;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+    margin: 15px;
+    width: 500px;
+    outline: none;
+  }
+  
+  .singleEmail .form .button {
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    background: #2CA8FF;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    float: right;
+  }

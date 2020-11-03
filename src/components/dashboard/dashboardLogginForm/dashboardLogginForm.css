@@ -1,0 +1,10 @@
+.dashboard-form{
+    background-color: rgb(32, 26, 26);
+    font-weight: bold;
+    border-radius: 3%;
+    padding: 15px ;
+}
+.dashboard-form h2{color: #2CA8FF;}
+.dashboard-form label{color: white;}
+.dashboard-form #sign-btn{background-color: #2CA8FF;}
+.dashboard-form #sign-btn:hover{border: none;}

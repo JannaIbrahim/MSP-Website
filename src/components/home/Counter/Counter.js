@@ -7,7 +7,7 @@ class Counter extends Component {
   render() {
     return (
       <div className="counter">
-      {/******************* Start Container Div **************}
+      {/******************* Start Container Div **************/}
         <div className="container">
           {/*************** Start row div for responsive ***************/}
           <div className="row content-of-icons ">
@@ -37,7 +37,7 @@ class Counter extends Component {
           </div>
           {/*************** End row div for responsive ***************/}
         </div>
-      {/******************* End Container Div **************}
+      {/******************* End Container Div **************/}
       </div>
     );
   }

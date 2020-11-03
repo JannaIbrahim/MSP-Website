@@ -1,0 +1,46 @@
+/************* Start Style For Slider ***************/
+.sidebar {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(./sidebar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 7px 25px #999;
+}
+
+.line {
+  border-bottom: 1px groove #eee;
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-item .current {
+  background-color: #2ca8ff;
+  border-radius: 3px;
+  box-shadow: 2px 5px 10px #111;
+}
+
+.current:hover {
+  background-color: #2ca8ff;
+  border-radius: 3px;
+  box-shadow: 2px 5px 20px #111;
+}
+
+.sidebar-link:hover {
+  background-color: #999999;
+  border-radius: 3px;
+}
+
+.sidebar-link {
+  transition: all 0.2s;
+}
+/************* End Style For Slider ***************/

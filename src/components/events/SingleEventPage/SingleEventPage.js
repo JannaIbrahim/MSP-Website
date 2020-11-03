@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./SingleEventPage.css";
-
+import Image from "./eventImage.jpeg"
 
 function SingleEventPage() {
   return (
@@ -10,11 +10,12 @@ function SingleEventPage() {
      <div className="row">
 
        <div className="col-lg-12 col-md-12 col-sm-6">
-
+       
+        <img src={Image} className="img" />
        <div className="icons">
-        <span> <i class="far fa-calendar-alt"></i> 15-16/2/2020 at 10 am </span><br></br>
+        <span> <i className="far fa-calendar-alt"></i> 15-16/2/2020 at 10 am </span><br></br>
 
-        <span> <i class="far fa-money-bill-alt"></i> free</span><br></br>
+        <span> <i className="far fa-money-bill-alt"></i> free</span><br></br>
       </div>
 
      <p>
@@ -91,7 +92,7 @@ Event Tickets: 𝖋𝖔𝖗 𝖋𝖗𝖊𝖊 "مجاناً تماماً" 😌�
 Registration Form Link: https://bit.ly/30DjyPM<br></br>
 #ExKnow_Forum<br></br>
 #MakeyourDecision_ChooseyourCareer<br></br>
-<br></br> #فاصنع_لنفسك_دافعاً_لتبدأ ❤️✨ عرض أقل
+<br></br> #فاصنعلنفسكدافعاً_لتبدأ ❤️✨ عرض أقل
        </p>
        
        <button>ENROLL NOW</button>
@@ -107,3 +108,4 @@ Registration Form Link: https://bit.ly/30DjyPM<br></br>
   )};
 
   export default SingleEventPage;
+
