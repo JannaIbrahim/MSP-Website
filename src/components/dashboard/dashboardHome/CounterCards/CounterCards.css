@@ -1,0 +1,110 @@
+/************** Start Style For Counters ***********************/
+.card {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  box-shadow: 1px 2px 5px #999;
+  transition: all 0.4s;
+}
+
+.card .cards1 {
+  padding-top: 2.9rem;
+}
+
+.card .icon-text .card-text {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 0;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.card .card-header .text-right {
+  padding-top: 5px;
+}
+
+.card .card-header .text-right .card-num {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #333333;
+}
+
+.card .card-header {
+  border-bottom: none;
+  background: transparent;
+  margin: 0px 15px 0;
+  padding: 0;
+  position: relative;
+}
+/** To MAke Space between Counters and Events **/
+.cards1 {margin-bottom: 30px;}
+
+.card-stats .card-header .card-icon {
+  border-radius: 3px;
+  background-color: #999999;
+  padding: 15px;
+  margin-top: -20px;
+  float: left;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(255, 152, 0, 0.4);
+  color: #fff;
+}
+
+.card .card-header-warning .card-icon {
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+}
+
+.card .card-header-success .card-icon {
+  background: linear-gradient(60deg, #66bb6a, #43a047);
+}
+
+.card .card-header-info .card-icon {
+  background: linear-gradient(60deg, #26c6da, #2ca8ff);
+}
+
+.card-stats .card-header.card-header-icon i {
+  font-size: 36px;
+  line-height: 56px;
+  width: 56px;
+  text-align: center;
+}
+
+.card-footer .stats {
+  font-size: 12px;
+  color: #999999;
+  padding: 3px;
+}
+
+.card-footer .stats span {
+  padding-left: 7px;
+}
+
+.card-stats .card-header + .card-footer {
+  margin-top: 20px;
+}
+
+.card-footer {
+  background: transparent;
+  padding: 0.3rem 1.1rem;
+}
+
+.card-stats:hover,
+.card-chart:hover {
+  box-shadow: 2px 3px 15px #999;
+  transform: translateY(-1px);
+}
+
+.card-chart .card-icon .events {
+  margin-top: -25px;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(255, 152, 0, 0.4);
+  height: 200px;
+  border-radius: 3px;
+}
+
+.card-body {
+  padding-top: 1rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.5rem;
+}
+
+/************** End Style For Counters ***********************/
