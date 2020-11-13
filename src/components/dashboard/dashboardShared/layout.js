@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./layout.css";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -15,33 +16,44 @@ function Sidebar() {
         {/************* Start Links in Slider ***********/}
         <li className="nav-item">
           {/******** link for home *****/}
+          <Link to="/dashboard/home">
           <a href="#" className="nav-link    current">
             <i className="material-icons mr-2">dashboard</i>Home
           </a>
+          </Link>
         </li>
         <li className="nav-item">
           {/******* Link for university-Email *******/}
+          <Link to="dashboard/university-email">
           <a href="#" className="nav-link  sidebar-link">
             <i className="material-icons mr-2">language</i>University Email
           </a>
+          </Link>
         </li>
         <li className="nav-item">
           {/******* Link for Best Member *******/}
+          <Link to="/dashboard/best-members">
           <a href="#" className="nav-link  sidebar-link">
             <i className="material-icons mr-2">person</i>Best Members
           </a>
+          </Link>
         </li>
         <li className="nav-item">
+
+          <Link to="/dashboard/upcoming-events">
           <a href="#" className="nav-link  sidebar-link">
             {/******* Link for Upcoming Events *******/}
             <i className="material-icons mr-2">content_paste</i>Upcoming Events
           </a>
+          </Link>
         </li>
         <li className="nav-item">
+          <Link to="/dashboard/past-events">
           <a href="#" className="nav-link  sidebar-link">
             {/******* Link for Past Events *******/}
             <i className="material-icons mr-2">library_books</i>Past Events
           </a>
+          </Link>
         </li>
         {/************* End Links in Slider ***********/}
       </ul>

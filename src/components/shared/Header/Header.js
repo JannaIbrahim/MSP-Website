@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav id="main-navbar" className="navbar navbar-expand-lg navbar-dark">
           <Link to="/">
             <a className="navbar-brand" href="#">
               <img

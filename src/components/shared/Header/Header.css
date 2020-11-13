@@ -1,4 +1,5 @@
 /* Apply navbar background */
-.navbar {
+#main-navbar {
   background-color: #011638;
+  margin-bottom: 0px;
 }
