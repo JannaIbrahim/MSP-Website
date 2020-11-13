@@ -108,3 +108,4 @@ Registration Form Link: https://bit.ly/30DjyPM<br></br>
   )};
 
   export default SingleEventPage;
+
