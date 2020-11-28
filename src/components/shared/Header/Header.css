@@ -1,5 +1,20 @@
 /* Apply navbar background */
 #main-navbar {
-  background-color: #011638;
   margin-bottom: 0px;
+  position: fixed;
+  z-index: 99;
+  top: 0px;
+  width: 100%;
+  transition: all 0.5s linear;
+}
+#main-navbar:hover {
+  background-color: #011638;
+}
+
+.navbar-trans {
+  background-color: transparent;
+}
+
+.fixed-scroll {
+  background-color: #011638;
 }
