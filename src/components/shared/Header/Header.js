@@ -5,27 +5,25 @@ import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   
+  // changing the navbar back ground color when scrolling
   componentDidMount() {
     window.addEventListener('scroll',this.handleScroll);
   }
   handleScroll(){
     let element = document.getElementById("main-navbar");
-    let navTop = document.getElementById("nav-top")
-    console.log("Scrolling------------");
-    if(window.pageYOffset > 0){
-      element.classList.remove('navbar-trans')
+    if(window.pageYOffset > document.querySelector('#main-navbar').scrollHeight){
+      // element.classList.remove('navbar-trans')
       element.classList.add('fixed-scroll');
-      console.log("Adding class---------------")
-      
+
     }else if(element.classList.contains('fixed-scroll')){
       element.classList.remove('fixed-scroll');
-      console.log("Removing class----------------")
+      // element.classList.add('navbar-trans')
+
     }
   }
   render() {
     return (
       <div>
-        <div id="nav-top"></div>
         <nav id="main-navbar" className="navbar navbar-expand-lg navbar-dark navbar-trans">
           <Link to="/">
             <a className="navbar-brand" href="#">

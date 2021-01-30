@@ -1,20 +1,38 @@
 /* Apply navbar background */
 #main-navbar {
   margin-bottom: 0px;
-  position: fixed;
-  z-index: 99;
-  top: 0px;
-  width: 100%;
-  transition: all 0.5s linear;
+  background-color: #011638;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 #main-navbar:hover {
   background-color: #011638;
 }
 
-.navbar-trans {
+/* .navbar-trans {
   background-color: transparent;
-}
+  background-color: #011638;
+} */
 
 .fixed-scroll {
-  background-color: #011638;
+  animation: show 2s linear;
+  position: fixed;
+  z-index: 99;
+  top: 0px;
+  width: 100%;
+  opacity: 100%;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
