@@ -11,7 +11,7 @@ class AllCounters extends Component {
 
           {/************** Get Paragraph From Props ********************/}
           <p>
-            {this.props.num}
+            <span className="count-num" target="{this.props.num}">0</span>
             <span> {this.props.text} </span>
           </p>
         </div>

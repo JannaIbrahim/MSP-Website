@@ -4,6 +4,13 @@ import AllCounters from "./AllCounters";
 
 
 class Counter extends Component {
+  // componentDidMount(){
+  //   let counters = document.querySelectorAll("AllCounters");
+  //   const speed = 
+  // }
+  // increaseCounters(){
+  //   let 
+  // }
   render() {
     return (
       <div className="counter">
@@ -25,7 +32,7 @@ class Counter extends Component {
 
             {/******* Start Camp Icons and paragraph ********/}
             <div className="parent col-md-3 col-sm-6 col-12 ">
-              <AllCounters icon="fas fa-archway" num="200" text="Camp" />
+              <AllCounters icon="fa fa-bar-chart" num="200" text="Camp" />
             </div>
             {/******* End Camp Icons and paragraph ********/}
 

@@ -1,25 +1,47 @@
 .containerr {
-  width: 95%;
+  width: 100%;
   height: auto;
-  margin: 2.5%;
+  /* margin: 2.5%; */
+}
+
+.containerr h2 {
+  color: #011638;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .row {
-  width: 96%;
+  width: 87%;
   margin: auto;
-
   height: auto;
 }
 
+.row .best_member_card {
+  margin-top: 2rem;
+  align-content: center;
+  text-align: center;
+}
+
 .img_member {
-  width: 90%;
-  margin-left: 5%;
-  height: 300px;
-  border-radius: 100%;
+  width: 125px;
+  height: 125px;
+  margin: 1rem auto;
+  border-radius: 50%;
 }
 .name_member,
 .sub_member {
   font-size: 30px;
   text-align: center;
   margin-top: 5px;
+}
+.best_member_card .name_member {
+  font-size: 1.5rem;
+  color: #011638;
+}
+
+.best_member_card .sub_member {
+  font-size: 1rem;
+  color: #01a4f1;
 }

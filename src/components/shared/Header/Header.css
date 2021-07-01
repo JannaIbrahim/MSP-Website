@@ -17,7 +17,7 @@
 } */
 
 .fixed-scroll {
-  animation: show 2s linear;
+  animation: show 0.9s linear;
   position: fixed;
   z-index: 99;
   top: 0px;

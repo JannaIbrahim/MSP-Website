@@ -54,25 +54,25 @@ class CardMembers extends Component {
         return ( 
             
   <div className="containerr" >
-                                                 
+        <h2>Best Members</h2>
+                            
        <div className=" row">
 
-
-         <div className="  col-lg-4 col-md-6 col-xs-12">
+         <div className=" best_member_card col-lg-4 col-md-6 col-xs-12">
              <img src={this.state.img[this.state.count0]}  className="img_member" />
          <h6 className="name_member">Ahmed Gamal</h6>
              <h6 className="sub_member">WEB</h6> 
              
          </div>
 
-          <div className="  col-lg-4 col-md-6 col-xs-12">
+          <div className=" best_member_card col-lg-4 col-md-6 col-xs-12">
              <img src={this.state.img2[this.state.count1]}  className="img_member" />
   <h6 className="name_member">Ahmed Gamal</h6>
              <h6 className="sub_member">WEB</h6>  
              
          </div>
 
-         <div className="  col-lg-4 col-md-6 col-xs-12">
+         <div className=" best_member_card col-lg-4 col-md-6 col-xs-12">
              <img src={this.state.img3[this.state.count2]}  className="img_member" />
   <h6 className="name_member">Ahmed Gamal</h6>
              <h6 className="sub_member">WEB</h6>  
