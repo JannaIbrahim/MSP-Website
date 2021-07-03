@@ -6,10 +6,15 @@ const Slider =()=> {
         <div className='player-wrapper'>
           <ReactPlayer
             className='react-player'
-            url='https://youtu.be/4fJV7w2YDqw'
+            url='https://www.youtube.com/embed/4fJV7w2YDqw?controls=0&showinfo=0'
             width='100%'
             height='100%'
-            controls
+            controls = 'false'
+            muted = 'true'
+            playing = 'true'
+            loop = 'true'
+            
+
           />
         </div>
       )
